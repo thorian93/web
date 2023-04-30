@@ -1,0 +1,6 @@
+---
+- hosts: my_test_host
+  become: true
+  tags: [wevserver]
+  roles:
+    - webserver
